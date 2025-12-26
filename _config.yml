@@ -19,7 +19,7 @@ locale: "en-US"
 # Author information (sidebar)
 author:
   name: "Sisu Xi"
-  avatar: "https://lh3.googleusercontent.com/sitesv/AAzXCkeBK9QhDeU2_xaBC66-DTU-No3YxZZW9StaMkUcvI_EKfjK3F9sZWxwerO4tzWuMq9fz7BOMBWalYhWEyaUoWsymKqRNPKr38cECgqHjKGMSccSakNjwP7J-UEWN041iS3Q_7VUgtAWFGbNcGkbjDry_c-E6_j5GhEa-ti4joJ0JSK236p30CQbgBxEtyYHaaYbOot9FvQjsaM=w300"
+  avatar: "/assets/images/profile.jpg"
   bio: "Principal Software Engineer with 10+ years architecting internet-scale platforms"
   location: "New York"
   links:
