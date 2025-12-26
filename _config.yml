@@ -1,0 +1,67 @@
+# Site settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Site metadata
+title: "Sisu Xi"
+name: "Sisu Xi"
+description: "Principal Software Engineer"
+url: "https://xisisu.github.io"
+baseurl: ""
+locale: "en-US"
+
+# Author information (sidebar)
+author:
+  name: "Sisu Xi"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Principal Software Engineer with 10+ years architecting internet-scale platforms"
+  location: "San Francisco Bay Area"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/xisisu/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/xisisu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
+
+# Reading files
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: false
+
+# Theme skin
+minimal_mistakes_skin: "dark"
+
+# Analytics (optional - uncomment to enable)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-XXXXXXXXXX"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/xisisu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/xisisu/"
