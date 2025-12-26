@@ -27,3 +27,5 @@ Principal Software Engineer with 10+ years architecting internet-scale distribut
 ## Experience
 
 Hebbia → Snap → Amazon Ads → Stripe → Facebook → Google → Two Sigma → WUSTL
+
+[View Resume](https://docs.google.com/document/d/1V9n1dI-7KFtFlWtnPdHlegN4s5iZHgTfQXMMOTgpbqE/preview?tab=t.0){: .btn .btn--primary} [Download PDF](https://docs.google.com/document/d/1V9n1dI-7KFtFlWtnPdHlegN4s5iZHgTfQXMMOTgpbqE/export?format=pdf){: .btn .btn--info}

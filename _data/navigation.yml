@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Resume"
+    url: https://docs.google.com/document/d/1V9n1dI-7KFtFlWtnPdHlegN4s5iZHgTfQXMMOTgpbqE/preview?tab=t.0
   - title: "Projects"
     url: /projects/
   - title: "Publications"
