@@ -5,19 +5,25 @@ author_profile: true
 permalink: /
 ---
 
-Principal Software Engineer with over a decade of experience building large-scale internet platforms. Leadership expertise spans multiple technical domains with demonstrated impact across 200-2000+ engineering teams.
+Member of Technical Staff at [Hebbia](https://www.hebbia.ai/), the AI platform for finance.
 
-## Technical Areas
+Principal Software Engineer with 10+ years architecting internet-scale distributed systems and cloud infrastructure. Proven track record leading cross-functional initiatives affecting 200-1000+ engineers, securing CTO/SVP alignment for strategic platform initiatives.
 
-**Ads, Search & Recommendations** — Developed vacation rental platform processing millions of listings, improved ads serving infrastructure reducing development cycles significantly, created growth optimization infrastructure processing billions of daily notifications.
+## Technical Domains
 
-**Policy Evaluation Engines** — Built conflict resolution systems for major social platforms, architected authorization infrastructure supporting massive scaling requirements.
+**Ads, Search & Recommendations** — Engineering Excellence Award for 6M+ listing platform 3.3x larger than Google Hotels (Google); Reduced ads development cycles 88% across 200+ engineers (Amazon); +80K DAU through 13.1B daily notification optimization (Snap).
 
-**Privacy, Legal & Compliance** — Designed post-trade risk management systems, implemented copyright protection frameworks, led DMA compliance execution across large engineering organizations.
+**Policy Evaluation Engines** — Prevented 4.5B unauthorized daily views via copyright conflict resolution (Facebook); Architected 400x scale authorization platform for ⅓ of Stripe's projected revenue (Stripe).
 
-**Low-Level Systems** — Created real-time VCPU scheduling in hypervisors and ultra-low-latency trading systems.
+**Privacy, Legal & Compliance** — Prevented Knight Capital-style $440M trading disasters through post-trade risk systems (Two Sigma); Led DMA compliance across 1000+ engineers preventing 10% revenue penalty (Amazon).
+
+**Low-Level Systems** — Industry-first real-time Xen hypervisor scheduling ([officially adopted](https://github.com/xen-project/xen/blob/master/xen/common/sched/rt.c), **2025 EMSOFT Test-of-Time Award**); Sub-microsecond trading systems via FPGA co-design (Two Sigma).
 
 ## Education
 
-- **Ph.D.** Computer Science, Washington University in St. Louis (2014)
+- **Ph.D.** Computer Science, Washington University in St. Louis (2014) — [Thesis](https://openscholarship.wustl.edu/etd/1366/)
 - **B.E.** Computer Science, Beijing University of Posts and Telecommunications (2008)
+
+## Experience
+
+Hebbia → Snap → Amazon Ads → Stripe → Facebook → Google → Two Sigma → WUSTL
