@@ -48,7 +48,7 @@ defaults:
       toc: false
 
 # Theme skin
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 
 # Analytics (optional - uncomment to enable)
 # analytics:
