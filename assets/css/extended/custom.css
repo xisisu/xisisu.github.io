@@ -1,0 +1,145 @@
+/* Wider content area for widescreen displays */
+.main {
+  --main-width: 860px;
+}
+
+/* Profile: prevent full-viewport hero, show content above the fold */
+.main .profile {
+  min-height: auto;
+  padding: 3rem 0 1rem;
+}
+
+/* Profile image: handle tall portrait photos */
+.profile img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+  width: 180px;
+  height: 180px;
+}
+
+/* Buttons below content: uniform width, grid layout */
+.main > .buttons {
+  max-width: 860px;
+  margin: 2rem auto 1rem;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+
+.main > .buttons .button {
+  text-align: center;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 44px;
+}
+
+.main > .buttons .button .button-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.main > .buttons .button .button-icon {
+  display: inline-flex;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.main > .buttons .button .button-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* External link indicator on buttons that open new tab */
+.main > .buttons .button[target="_blank"] .button-inner::after {
+  content: "↗";
+  font-size: 0.7em;
+  opacity: 0.5;
+  margin-left: 0.15em;
+  vertical-align: super;
+}
+
+.main > .buttons .button:hover {
+  background: var(--border);
+  transition: background 0.15s ease;
+}
+
+@media (max-width: 600px) {
+  .main > .buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Homepage: content section below profile hero */
+.main .profile + .post-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.5rem 0.5rem;
+}
+
+.main .profile + .post-content > p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Bold category labels — visually distinct scannable anchors */
+.main .profile + .post-content > p strong:first-child {
+  display: block;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 0.3rem;
+}
+
+/* Experience/publications list item spacing */
+.post-content li {
+  margin-top: 0.6rem;
+  line-height: 1.7;
+}
+
+/* Horizontal rules as section dividers */
+.post-content hr {
+  margin: 2rem 0;
+  opacity: 0.15;
+}
+
+/* Experience/publications page headers */
+.post-content h2 {
+  margin-top: 2.5rem;
+  border-bottom: none;
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.05rem;
+}
+
+/* Resume page: download link and iframe */
+.resume-download {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.resume-download-btn {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  color: var(--secondary);
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.resume-iframe {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 80vh;
+  min-height: 600px;
+  max-height: 1200px;
+}

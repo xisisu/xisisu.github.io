@@ -1,0 +1,75 @@
+baseURL: "https://xisisu.github.io/"
+languageCode: en-us
+title: "Sisu Xi"
+theme: "PaperMod"
+
+paginate: 10
+
+params:
+  author: "Sisu Xi"
+  description: "Principal Software Engineer — platforms for org-scale coordination problems across enterprise AI, advertising, authorization, and compliance systems"
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowToc: false
+  ShowWordCount: false
+  hideSummary: true
+  hideMeta: true
+
+  profileMode:
+    enabled: true
+    title: "Sisu Xi"
+    subtitle: "Principal Software Engineer — Enterprise AI & Platform Infrastructure"
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "Sisu Xi"
+    buttons:
+      - name: "Resume"
+        url: "/resume/"
+        icon: "cv"
+      - name: "LinkedIn"
+        url: "https://linkedin.com/in/xisisu"
+        icon: "linkedin"
+      - name: "GitHub"
+        url: "https://github.com/xisisu"
+        icon: "github"
+      - name: "Google Scholar"
+        url: "https://scholar.google.com/citations?user=amXgr0gAAAAJ"
+        icon: "googlescholar"
+      - name: "Publications"
+        url: "/publications/"
+        icon: "book"
+      - name: "Email"
+        url: "mailto:xisisu@gmail.com"
+        icon: "email"
+
+  socialIcons: []
+
+  homeInfoParams:
+    Title: ""
+    Content: ""
+
+  assets:
+    favicon: "/favicon.ico"
+    disableFingerprinting: false
+
+  cover:
+    hidden: true
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS

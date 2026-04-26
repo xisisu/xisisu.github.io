@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xisisu.github.io/sitemap.xml
